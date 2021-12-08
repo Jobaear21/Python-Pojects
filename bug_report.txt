@@ -1,0 +1,61 @@
+----- 08/05/19 12:23:40 -----
+Traceback (most recent call last):
+  File "G:/Python/Practice/ChessProject/gui.py", line 174, in PlayAs
+    game = MakeAIMove(game, color)
+  File "G:/Python/Practice/ChessProject/gui.py", line 147, in MakeAIMove
+    new_game = chess.MakeMove(game, chess.getAIMove(game, AISearchDepth))
+  File "G:\Python\Practice\ChessProject\chess.py", line 1455, in getAIMove
+    move = getBookMove(game)
+  File "G:\Python\Practice\ChessProject\chess.py", line 1562, in getBookMove
+    a.MovePopUp("Your piece position is:""")
+TypeError: MovePopUp() missing 2 required positional arguments: 'message' and 'path'
+
+Playing as WHITE:
+	----- 08/05/19 12:26:37 -----
+Traceback (most recent call last):
+  File "G:/Python/Practice/ChessProject/gui.py", line 174, in PlayAs
+    game = MakeAIMove(game, color)
+  File "G:/Python/Practice/ChessProject/gui.py", line 147, in MakeAIMove
+    new_game = chess.MakeMove(game, chess.getAIMove(game, AISearchDepth))
+  File "G:\Python\Practice\ChessProject\chess.py", line 1455, in getAIMove
+    move = getBookMove(game)
+  File "G:\Python\Practice\ChessProject\chess.py", line 1562, in getBookMove
+    a.MovePopUp("Your piece position is:""nothing""nothing")
+TypeError: MovePopUp() missing 2 required positional arguments: 'message' and 'path'
+
+Playing as WHITE:
+	d2d4
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+	rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1
+-----------------------------
+
+----- 08/05/19 12:52:22 -----
+Traceback (most recent call last):
+  File "G:/Python/Practice/ChessProject/gui.py", line 172, in PlayAs
+    PrintBoard(game.board, color)
+  File "G:/Python/Practice/ChessProject/gui.py", line 96, in PrintBoard
+    PrintEmptyBoard()
+  File "G:/Python/Practice/ChessProject/gui.py", line 56, in PrintEmptyBoard
+    Screen.fill(BoardColor[0])
+AttributeError: 'str' object has no attribute 'fill'
+
+Playing as BLACK:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
+----- 08/05/19 12:52:46 -----
+Traceback (most recent call last):
+  File "G:/Python/Practice/ChessProject/gui.py", line 172, in PlayAs
+    PrintBoard(game.board, color)
+  File "G:/Python/Practice/ChessProject/gui.py", line 96, in PrintBoard
+    PrintEmptyBoard()
+  File "G:/Python/Practice/ChessProject/gui.py", line 56, in PrintEmptyBoard
+    Screen.fill(BoardColor[0])
+AttributeError: 'str' object has no attribute 'fill'
+
+Playing as WHITE:
+	
+	rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+-----------------------------
+
